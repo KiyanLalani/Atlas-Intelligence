@@ -2,9 +2,11 @@ services:
   - type: web
     name: atlas-intelligence-api
     env: node
-    rootDir: backend
-    buildCommand: npm install
-    startCommand: node server.js
+    plan: free
+    buildCommand: cd backend && npm install
+    startCommand: node backend/server.js
     envVars:
       - key: NODE_ENV
-        value: production 
+        value: production
+      - key: PORT
+        value: 10000 
