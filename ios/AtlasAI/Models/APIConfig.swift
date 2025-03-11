@@ -20,8 +20,8 @@ enum Environment {
             // Update with your actual staging server URL
             return "https://staging.atlasai.com/api"  // Replace with your actual staging server
         case .production:
-            // Update with your actual production server URL that will be used for TestFlight and App Store
-            return "https://api.atlasai.com/api"  // Replace with your actual production server
+            // Render deployment URL - update with your actual Render URL
+            return "https://atlas-intelligence-api.onrender.com/api"  // Replace with your actual Render URL
         }
     }
 }

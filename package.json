@@ -1,0 +1,19 @@
+{
+  "name": "atlas-intelligence",
+  "version": "1.0.0",
+  "description": "Atlas Intelligence - Educational AI tool",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "install": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiyanLalani/Atlas-Intelligence.git"
+  },
+  "author": "",
+  "license": "ISC"
+} 
